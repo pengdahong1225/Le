@@ -1,0 +1,52 @@
+void love()
+{
+    int  i=0;
+    while(i<n)
+    {
+        i++;
+        printf("love\n");
+    }
+    printf("love more than %d\n",i);
+}
+行  频度
+3   1
+4   n+1
+6,7 n
+9   1
+T(n) = 3n+3         O(n)
+****************************************
+void love()
+{
+    int  i=1;
+    while(i<=n)
+    {
+        i*=2;//每次翻倍
+        printf("love\n");
+    }
+    printf("love more than %d\n",i);
+}
+行  频度
+20  1
+21  x        i=2,4,6,8......2^x
+22  x
+T(n) = O(x) = O(log2n)
+****************************************
+void love(int flag[],int )
+{
+    printf("I am iron man\n");
+    for(int i=0;i<n;i++)
+    {
+        if(flag[i] == n)
+        {
+            printf("I love\n");
+            break;
+        }
+    }
+}
+最好:元素n在第一个位置 O(1)
+最差:元素n在最后一个位置 O(n)
+平均:假设元素n在任意位置的概率为1/n O(n)
+循环次数x = (1+2+3+4+...+n)*1/n = (n+1)/2
+******************************************
+注意返回值不计入空间复杂度。
+

@@ -1,0 +1,7 @@
+﻿  test.cpp
+C:\Users\Messi\Desktop\daily\Le\test\test\test.cpp(24,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Messi\Desktop\daily\Le\test\test\test.cpp(37,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Messi\Desktop\daily\Le\test\test\test.cpp(67,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Messi\Desktop\daily\Le\test\test\test.cpp(68,21): warning C4101: “j”: 未引用的局部变量
+C:\Users\Messi\Desktop\daily\Le\test\test\test.cpp(113,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  test.vcxproj -> C:\Users\Messi\Desktop\daily\Le\test\x64\Debug\test.exe
